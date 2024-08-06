@@ -36,3 +36,33 @@ html {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+.main-content {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #e9ecef;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #0056b3;
+}
