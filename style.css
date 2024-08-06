@@ -28,10 +28,23 @@ html {
   color: #fff;
   padding: 20px;
 }
+.sidebar h2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.sidebar h2 .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  fill: white;
+}
 
 .sidebar nav ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 20px;
 }
 
 .sidebar nav ul li {
@@ -41,10 +54,19 @@ html {
 .sidebar nav ul li a {
   text-decoration: none;
   color: #fff;
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 10px;
   border-radius: 5px;
+  transition: background-color 0.3s;
   /* border: 1px solid black; */
+}
+
+.sidebar nav ul li a .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  fill: white;
 }
 
 .sidebar nav ul li a:hover {
