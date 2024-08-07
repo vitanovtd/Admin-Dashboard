@@ -97,7 +97,7 @@ html {
 }
 
 .header .search-bar input {
-  padding: 10px;
+  padding: 12px;
   border-radius: 20px;
   background-color: #c5c4c4;
   border: 1px solid #ddd;
@@ -110,8 +110,8 @@ html {
 }
 
 .header .user-info img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-left: 10px;
 }
@@ -133,8 +133,8 @@ html {
 }
 
 .user-actions .profile-overview img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -157,13 +157,13 @@ html {
 }
 
 .user-actions .action-buttons button {
-  padding: 10px 20px;
+  padding: 12px 25px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
 }
-
+  
 .user-actions .action-buttons .btn-new {
   background-color: #0d6efd;
   color: white;
