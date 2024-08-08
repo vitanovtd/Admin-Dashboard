@@ -159,7 +159,7 @@ html {
 .user-actions .action-buttons button {
   padding: 12px 25px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
 }
