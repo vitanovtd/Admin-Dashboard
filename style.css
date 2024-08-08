@@ -92,7 +92,7 @@ html {
   display: flex;
   align-items: center;
 }
-
+/* headersection bar grid */
 .header .search-bar .icon {
   width: 3.2rem;
   height: 3.2rem;
